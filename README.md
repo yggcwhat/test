@@ -6,6 +6,14 @@ The tmpMove method first creates a file. However, the $filename parameter (contr
 
 This creates a vulnerability where an attacker could manipulate resource_temp_path and chunk_index to write files to arbitrary locations with controlled filenames.
 
+Details:
+app >controller >backend > AttachmentController.php：sliceUploadAndSave
+![image](https://github.com/user-attachments/assets/24c5022b-5dbf-410b-96fd-ccbe93af5dbb)
+
+app >service >upload > Upload.php：tmpMove
+![image](https://github.com/user-attachments/assets/d0ba84b2-a5db-498f-95f7-e14a4c90c7cd)
+![image](https://github.com/user-attachments/assets/e72806d6-1a06-467b-b040-172109bcb710)
+
 
 
 This vulnerability is a backend issue that requires logging into the backend with a token to invoke. Please set up and log in by yourself.
