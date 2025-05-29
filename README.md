@@ -86,6 +86,9 @@ http://127.0.0.1/storage/image/20250415/%5f%5f.php
 ![image](https://github.com/user-attachments/assets/be060299-23ee-470d-abaa-57550329ba34)
 
 
-
+Reference：
+http://huocms.com
+https://github.com/yggcwhat/CVE-2025-46078/edit/main/README.md
+https://www.huocms.com/
 
 
